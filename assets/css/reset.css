@@ -1,0 +1,92 @@
+/* Remove default margin & padding */
+
+* {
+  margin: 0;
+  padding: 0;
+  transition: all 0.5s ease;
+}
+
+/* More intuitive box-sizing */
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+/* font family */
+
+html {
+  font-family: var(--ff-inter);
+}
+
+/* all heading color/ */
+h1,
+h2,
+h3 h4,
+h5,
+h6 {
+  color: var(--white);
+}
+
+/* default baground */
+
+body {
+  background: #ffffff;
+  color: var(--black-29);
+  -webkit-font-smoothing: antialiased;
+}
+
+/* change default image*/
+img {
+  display: block;
+  width: 100%;
+  height: 100%;
+  pointer-events: none;
+  object-fit: cover;
+}
+
+/* remove form default// */
+
+input,
+button,
+select {
+  font: inherit;
+  background: none;
+  border: none;
+  outline: none;
+}
+
+/* add button default/ */
+
+button {
+  color: var(--white-2);
+  cursor: pointer;
+}
+
+/* remove list item marker/ */
+
+li {
+  list-style: none;
+}
+
+/* change link default */
+
+a {
+  text-decoration: none;
+  display: block;
+  color: var(--white-2);
+}
+
+/* default scroll bar/ */
+
+::-webkit-scrollbar {
+  background: transparent;
+  border-left: 1px solid var(--oxfor-blue);
+}
+
+::-webkit-scrollbar-thumb {
+  background: var(--ligth-azure);
+  border-radius: 5em;
+  border: 3px solid var(--black-29);
+}
