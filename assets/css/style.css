@@ -170,6 +170,11 @@ nav {
 /* Main section */
 .banner {
   margin-bottom: 60px;
+  background: #f2f2f2;
+  width: 100%;
+  padding: 5rem;
+  border-radius: 20px;
+  margin-top: 2rem;
 }
 
 .banner-card {
@@ -239,12 +244,20 @@ nav {
   text-shadow: 2px 0 2px #0007;
 }
 
+.card-content h2:hover {
+  color: #ffd700;
+}
+
 /* End Main Section/ */
 
 /* Movie secction/ */
 
 .movies {
   margin-bottom: 60px;
+  background: var(--oxfor-blue);
+  padding: 2rem;
+  border-radius: 20px;
+  margin-top: -2rem;
 }
 
 .filter-bar {
@@ -258,7 +271,7 @@ nav {
 }
 
 .filter-bar select {
-  color: #19abff;
+  color: #000000;
   font-weight: 700;
   font-size: 20px;
   margin-right: 15px;
@@ -283,11 +296,11 @@ nav {
 .filter-radio label {
   position: relative;
   margin: 0 10px;
-  font-size: var(--fs-sm);
+  font-size: 20px;
   user-select: none;
   cursor: pointer;
   z-index: 10;
-  color: var(--white);
+  color: var(--black-30);
   font-weight: 700;
 }
 
@@ -385,6 +398,10 @@ input ~ .checked-radio-bg {
   background: var(--oxford-blue-50);
 }
 
+.card-title {
+  color: var(--white);
+}
+
 .movie-card .rating span {
   color: var(--white);
   font-size: 13px;
@@ -422,7 +439,7 @@ input ~ .checked-radio-bg {
 }
 
 .movie-card:hover .card-title {
-  color: var(--ligth-azure);
+  color: #ffd700;
 }
 
 .movie-card .card-info {
@@ -433,28 +450,28 @@ input ~ .checked-radio-bg {
 
 .movie-card .genre {
   margin-right: 8px;
-  color: var(--black-29);
+  color: var(--white);
 }
 
 .movie-card .year {
-  color: var(--black-29);
+  color: var(--white);
 }
 /* Movie grid Section End/ */
 
 /* lOAD MORE BUTTON/ */
 .load-more {
-  background: #19abff;
+  background: #ffffff;
   display: block;
   padding: 20px 50px;
   margin: auto;
   font-size: var(--fs-sm);
   font-weight: var(--fw-5);
   border-radius: 15px;
-  color: var(--white);
+  color: var(--black-29);
 }
 
 .load-more:hover {
-  background: red;
+  background: #ffd700;
 }
 
 /* category section/ */
@@ -462,15 +479,27 @@ input ~ .checked-radio-bg {
 .category {
   margin-bottom: 60px;
   text-align: center;
+  background: #19abff;
+  padding: 4rem;
+  border-radius: 20px;
+  margin-top: -2rem;
 }
 
 .live h2 {
-  color: var(--black-29);
+  color: var(--white);
   text-align: center;
+  font-weight: 800;
 }
 
 .category h2 {
-  color: var(--black-29);
+  color: var(--white);
+  font-weight: 700;
+}
+
+.category-img {
+  display: block;
+  margin: 0 auto;
+  width: 800px;
 }
 
 .category-grid {
@@ -520,15 +549,24 @@ input ~ .checked-radio-bg {
 }
 
 .category-card:hover .name {
-  color: var(--ligth-azure);
+  color: #ffd700;
 }
 
 /* live section// */
 
 .live {
   margin-bottom: 60px;
+  background: #ffd700;
+  margin-top: -2rem;
+  padding: 4rem;
+  border-radius: 20px;
 }
 
+.logLive {
+  display: block;
+  width: 800px;
+  margin: 0 auto;
+}
 .live-grid {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
@@ -578,7 +616,7 @@ input ~ .checked-radio-bg {
   bottom: 30px;
   font-size: 15px;
   font-weight: var(--fw-6);
-  background: var(--oxford-blue-50);
+  background: var(--white);
 }
 
 .live-card .play {
@@ -617,7 +655,11 @@ input ~ .checked-radio-bg {
 }
 
 .live-card .card-title {
-  color: var(--ligth-azure);
+  color: var(--black-29);
+}
+
+.card-title:hover {
+  color: var(--azure);
 }
 
 /* footer section. */
@@ -625,6 +667,8 @@ input ~ .checked-radio-bg {
 footer {
   background: var(--black-30);
   padding: 80px var(--px) 40px;
+  margin-top: -2rem;
+  border-radius: 20px;
 }
 
 .footer-content {
@@ -643,6 +687,7 @@ footer {
 .footer-logo {
   width: 200px;
   margin-bottom: 30px;
+  display: none;
 }
 
 .slogan {
