@@ -316,6 +316,16 @@
   }
 }
 
+@media screen and (width >= 600px) and (width <= 700px) {
+  .category-img {
+    margin-left: 4rem;
+  }
+
+  .logLive {
+    margin-left: 4rem;
+  }
+}
+
 /* for 575 px */
 
 @media screen and (width <= 575px) {
