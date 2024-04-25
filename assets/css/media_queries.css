@@ -324,6 +324,11 @@
   .logLive {
     margin-left: 4rem;
   }
+
+  .navbar-brand img {
+    width: 220px;
+    margin-left: -3rem;
+  }
 }
 
 /* for 575 px */
@@ -395,6 +400,10 @@
     width: 350px;
     margin-left: -3rem;
   }
+
+  .navbar-menu-btn {
+    margin-left: -4rem;
+  }
 }
 
 @media screen and (width >= 539px) and (width <= 550px) {
@@ -431,5 +440,9 @@
 
   .footer-copyrigth {
     margin-top: -7rem;
+  }
+
+  .navbar-menu-btn {
+    margin-left: -5rem;
   }
 }
