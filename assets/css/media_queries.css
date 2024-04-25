@@ -295,12 +295,12 @@
 
   .category-img {
     width: 400px;
-    margin-left: -3.5rem;
+    margin-left: 6rem;
   }
 
   .logLive {
     width: 380px;
-    margin-left: -5rem;
+    margin-left: 5rem;
   }
 
   .footer-brand,
@@ -417,5 +417,19 @@
 
   .footer-brand .footer-logo {
     width: 50%;
+  }
+
+  .footer-links {
+    display: none;
+  }
+
+  .footer-brand {
+    margin-left: -2rem;
+    margin-top: -2rem;
+    text-align: center;
+  }
+
+  .footer-copyrigth {
+    margin-top: -7rem;
   }
 }
