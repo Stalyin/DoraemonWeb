@@ -1,0 +1,269 @@
+/* Variables import */
+@import url(./variables.css);
+
+/* reset import */
+@import url(./reset.css);
+
+/* reused style/ */
+
+@media (prefers-color-scheme: dark) {
+  header,
+  nav {
+    background: #19abff;
+  }
+
+  .navbar-nav li a {
+    color: var(--white);
+  }
+
+  .navbar-link:hover {
+    background: red;
+  }
+
+  .indicator::after {
+    background: var(--live);
+
+    box-shadow: 0 0 0 2px rgb(12, 81, 193);
+  }
+
+  .navbar-search {
+    background: var(--white);
+
+    color: var(--azure);
+  }
+
+  .navbar-form-btn {
+    background: var(--white);
+  }
+
+  .navbar-form-btn ion-icon,
+  .navbar-search-btn ion-icon {
+    color: var(--ligth-azure);
+  }
+
+  .navbar-form-btn:hover ion-icon {
+    color: red;
+  }
+  .navbar-search::placeholder {
+    color: gray;
+  }
+
+  .navbar-singin {
+    font-size: var(--fs-sm);
+
+    color: var(--white);
+  }
+  .navbar-singin ion-icon {
+    color: var(--width);
+  }
+
+  .navbar-singin:hover span {
+    background: red;
+  }
+
+  /* navbar section end */
+
+  /* Main section */
+  .banner {
+    background: #f2f2f2;
+  }
+
+  .banner-card .card-info ion-icon {
+    color: var(--black-29);
+  }
+
+  .banner-card .card-info .quality {
+    background: var(--white);
+  }
+
+  .card-info span {
+    color: var(--white);
+  }
+
+  .banner-card .card-title {
+    color: var(--white);
+  }
+
+  .card-content h2:hover {
+    color: #ffd700;
+  }
+
+  /* End Main Section/ */
+
+  /* Movie secction/ */
+
+  .movies {
+    background: var(--oxfor-blue);
+  }
+
+  .filter-bar {
+    background: #ffd700;
+  }
+
+  .filter-bar select {
+    color: #000000;
+  }
+
+  .filter-bar option {
+    background: #ffffff;
+  }
+
+  .filter-radio {
+    background: #ffc148;
+  }
+
+  .filter-radio input {
+    display: none;
+  }
+
+  .filter-radio label {
+    color: var(--black-30);
+  }
+
+  .filter-radio input:checked + label,
+  .filter-radio label:hover {
+    color: #19abff;
+  }
+
+  input ~ .checked-radio-bg {
+    background: var(--oxfor-blue);
+  }
+
+  .movie-card:hover .card-overlay {
+    opacity: 1;
+  }
+
+  .movie-card .bookmark,
+  .movie-card .rating {
+    color: var(--ligth-azure);
+  }
+
+  .movie-card .bookmark {
+    background: var(--oxfor-blue);
+  }
+
+  .movie-card .bookmark:hover {
+    color: var(--yellow);
+  }
+
+  .movie-card .rating {
+    background: var(--oxford-blue-50);
+  }
+
+  .card-title {
+    color: var(--white);
+  }
+
+  .movie-card .rating span {
+    color: var(--white);
+  }
+
+  .movie-card:hover .card-title {
+    color: #ffd700;
+  }
+
+  .movie-card .genre {
+    color: var(--white);
+  }
+
+  .movie-card .year {
+    color: var(--white);
+  }
+  /* Movie grid Section End/ */
+
+  /* lOAD MORE BUTTON/ */
+  .load-more {
+    background: #ffffff;
+
+    color: var(--black-29);
+  }
+
+  .load-more:hover {
+    background: #ffd700;
+    color: #19abff;
+  }
+
+  /* category section/ */
+
+  .category {
+    background: #19abff;
+  }
+
+  .live h2 {
+    color: var(--white);
+
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+  }
+
+  .category h2 {
+    color: var(--white);
+  }
+
+  .category-card::after {
+    background: linear-gradient(180deg, transparent 20%, #000a);
+  }
+
+  .category-card .total {
+    background-color: var(--oxford-blue-50);
+  }
+
+  .category-card:hover .name {
+    color: #ffd700;
+  }
+
+  /* live section// */
+
+  .live {
+    background: #ffd700;
+  }
+
+  .live-card .card-head2::after {
+    background: linear-gradient(180deg, transparent 20%, #000a);
+  }
+
+  .live-card .live-badge {
+    background: var(--live);
+  }
+
+  .live-card .total-viewers {
+    background: var(--white);
+  }
+
+  .live-card .card-title {
+    color: var(--black-29);
+  }
+
+  .card-title:hover {
+    color: var(--azure);
+  }
+
+  /* footer section. */
+
+  footer {
+    background: var(--black-30);
+  }
+
+  .footer-content {
+    border-radius: 1px solid var(--oxford-blue-50);
+  }
+
+  .slogan {
+    color: var(--white);
+  }
+
+  .footer-links {
+    color: var(--white);
+  }
+
+  .link-item:hover a {
+    color: var(--ligth-azure);
+  }
+
+  .footer-copyrigth {
+    color: var(--white);
+  }
+
+  .wrapper a:hover {
+    color: var(--ligth-azure);
+  }
+}

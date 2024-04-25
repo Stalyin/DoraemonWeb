@@ -205,9 +205,13 @@
   }
 
   .banner-card .card-content {
-    bottom: 40px;
+    bottom: 50px;
     left: 60px;
     right: 60px;
+  }
+
+  .card-content .card-info {
+    display: none;
   }
 }
 
@@ -238,7 +242,19 @@
 
 /* for 768 px */
 
-@media screen and (width <= 768px) {
+@media screen and (width <= 780px) {
+  .category-img {
+    width: 600px;
+    margin-left: 2rem;
+  }
+
+  .logLive {
+    width: 600px;
+    margin-right: 4rem;
+  }
+}
+
+@media screen and (width <= 765px) {
   :root {
     --px: 40px;
   }
@@ -358,5 +374,38 @@
 
   .live-grid {
     justify-content: center;
+  }
+
+  .category-img {
+    width: 310px;
+    margin-left: -1rem;
+  }
+
+  .logLive {
+    width: 350px;
+    margin-left: -3rem;
+  }
+}
+
+@media screen and (width >= 539px) and (width <= 550px) {
+  .category-img {
+    width: 300px;
+    margin-left: 3rem;
+  }
+
+  .logLive {
+    width: 320px;
+    margin-left: 1.2rem;
+  }
+}
+
+@media screen and (width <= 392px) {
+  .category-img,
+  .logLive {
+    display: none;
+  }
+
+  .footer-brand .footer-logo {
+    width: 50%;
   }
 }
