@@ -277,9 +277,14 @@
     width: 100%;
   }
 
-  .category-img,
+  .category-img {
+    width: 400px;
+    margin-left: -3.5rem;
+  }
+
   .logLive {
-    display: none;
+    width: 380px;
+    margin-left: -5rem;
   }
 
   .footer-brand,
