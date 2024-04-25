@@ -1,3 +1,22 @@
+/* for 1600px */
+@media screen and (width >= 1300px) {
+  .card-content {
+    margin-left: -3rem;
+  }
+
+  .live {
+    width: 100%;
+    border-radius: none;
+  }
+
+  .social-link {
+    display: flex;
+  }
+
+  .banner-img {
+    display: none;
+  }
+}
 /* For 1200 px */
 
 @media screen and (width <= 1200px) {
@@ -17,7 +36,7 @@
   }
 
   header.active {
-    top: 250px;
+    top: 236px;
   }
 
   .navbar-menu-btn {
@@ -101,6 +120,7 @@
     align-items: center;
     z-index: 100;
     border-radius: 20px;
+    margin-top: 0.7rem;
   }
 
   .navbar-form.active {
@@ -210,6 +230,10 @@
   .logLive {
     width: 650px;
   }
+
+  .banner {
+    margin-top: 2rem;
+  }
 }
 
 /* for 768 px */
@@ -236,7 +260,7 @@
   /* movie section/ */
 
   .movies {
-    margin-top: 120px;
+    margin-top: 80px;
   }
 
   /* filter bar responsive */
@@ -319,5 +343,11 @@
   .category h2,
   .live h2 {
     text-align: center;
+  }
+
+  .movies-grid {
+    grid-template-columns: repeat(2, minmax(150px, 1fr));
+    gap: 20px;
+    justify-content: center;
   }
 }

@@ -5,12 +5,10 @@
 @import url(./reset.css);
 
 /* reused style/ */
-header {
-  background: var(--ligth-azure);
-}
-
+header,
 nav {
-  background: var(--ligth-azure);
+  background: #19abff;
+  border-radius: 0 0 20px 20px;
 }
 
 .navbar,
@@ -30,7 +28,7 @@ nav {
 /* main style/ */
 
 .container {
-  max-width: 1440px;
+  max-width: 100%;
   margin: auto;
 }
 
@@ -169,12 +167,9 @@ nav {
 
 /* Main section */
 .banner {
-  margin-bottom: 60px;
   background: #f2f2f2;
   width: 100%;
   padding: 5rem;
-  border-radius: 20px;
-  margin-top: 2rem;
 }
 
 .banner-card {
@@ -255,8 +250,7 @@ nav {
 .movies {
   margin-bottom: 60px;
   background: var(--oxfor-blue);
-  padding: 2rem;
-  border-radius: 20px;
+  padding: 6rem;
   margin-top: -2rem;
 }
 
@@ -464,31 +458,33 @@ input ~ .checked-radio-bg {
   display: block;
   padding: 20px 50px;
   margin: auto;
-  font-size: var(--fs-sm);
+  font-size: var(--fs-md);
   font-weight: var(--fw-5);
   border-radius: 15px;
   color: var(--black-29);
+  font-weight: 600;
 }
 
 .load-more:hover {
   background: #ffd700;
+  color: #19abff;
 }
 
 /* category section/ */
 
 .category {
-  margin-bottom: 60px;
   text-align: center;
   background: #19abff;
   padding: 4rem;
-  border-radius: 20px;
-  margin-top: -2rem;
+
+  margin-top: -4rem;
 }
 
 .live h2 {
   color: var(--white);
   text-align: center;
   font-weight: 800;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
 }
 
 .category h2 {
@@ -500,6 +496,8 @@ input ~ .checked-radio-bg {
   display: block;
   margin: 0 auto;
   width: 800px;
+  position: relative;
+  margin-top: -10rem;
 }
 
 .category-grid {
@@ -558,15 +556,20 @@ input ~ .checked-radio-bg {
   margin-bottom: 60px;
   background: #ffd700;
   margin-top: -2rem;
-  padding: 4rem;
-  border-radius: 20px;
+  padding: 6rem;
+  width: 100%;
+  height: auto;
+  margin: 0;
 }
 
 .logLive {
   display: block;
   width: 800px;
   margin: 0 auto;
+  position: relative;
+  margin-bottom: -8rem;
 }
+
 .live-grid {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
@@ -668,7 +671,6 @@ footer {
   background: var(--black-30);
   padding: 80px var(--px) 40px;
   margin-top: -2rem;
-  border-radius: 20px;
 }
 
 .footer-content {

@@ -88,5 +88,5 @@ a {
 ::-webkit-scrollbar-thumb {
   background: var(--ligth-azure);
   border-radius: 5em;
-  border: 3px solid var(--black-29);
+  border: 2px solid var(--black-29);
 }
